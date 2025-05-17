@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* NAV styles */
-body{
-    background-color: rgb(188, 175, 226);
-}
 nav {
     display: flex;
     align-items: center;
@@ -32,6 +29,23 @@ nav {
 /* shared style*/
 .text-primary{
     color: #FD6E0A;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+.section-description{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #757575;
+    text-align: center;
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -77,6 +91,10 @@ nav ul li a {
     width: 584px;
     height: 676px;
 }
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -96,4 +114,25 @@ nav ul li a {
 .banner-description{
     opacity: 0.8;
 }
-     
+/* about sections styles */
+.about{
+    border: 100px solid #FFF8F3;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Open Sans", sans-serif;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: mixed;
+    color: #474747;
+}
